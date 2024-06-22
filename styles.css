@@ -1,0 +1,96 @@
+body {
+    height: 350vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+ul {
+    display: flex;
+    font-size: 18px;
+    gap: 15px;
+}
+
+.parent {
+    display: flex;
+    
+}
+
+.header_hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    width: 100%;
+    padding: 0px 250px 180px 250px;
+    gap: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#text_one {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    width: 70%;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+}
+
+#text, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#text {
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.hero button {
+    border-radius: 5px;
+    border: 0;
+    width: 100px;
+    height: auto;
+    padding: 8px;
+    margin: 0;
+    color: white;
+    background-color: #3882F6;
+}
+
+
+.hero .img {
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: gray;
+}
+
+.hero .img p {
+    display: flex;
+    
+}
